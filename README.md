@@ -1,12 +1,76 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1511" height="795" alt="78shots_so" src="https://github.com/user-attachments/assets/15876496-003f-4bd9-aef4-59d423ceeedc" />
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Anime Image Carousel
 
-## Expanding the ESLint configuration
+A modern, full-screen image carousel built with React, JavaScript, and CSS. The carousel automatically cycles through images, includes smooth transitions, and allows users to navigate using interactive dots.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+
+https://css-anime-carousel.vercel.app/
+
+## Features
+
+- Automatic image rotation every 3 seconds using `useEffect` and `setInterval`
+- Smooth fade-in/fade-out transitions using `CSS opacity animations`
+- Images are stacked and only the active image is displayed based on `React state (currentIndex)`
+- Interactive dots for manual navigation between slides
+- Full-screen responsive layout
+
+## Tech Stack
+
+- **React**
+- **JavaScript**
+- **CSS**
+
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+    git clone https://github.com/Almudena-Rendon/css-anime-carousel
+
+2. **Navigate to the project directory:**
+
+   ```bash
+    cd css-anime-carousel
+   
+3. **Install dependencies:**
+
+   ```bash
+    npm install
+
+4. **Start the development server:**
+
+   ```bash
+    npm run dev
+
+## Folder Structure
+
+```
+
+├── public/
+│   └── (images, favicon, etc.)
+├── src/
+│   ├── Carousel.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+└── vite.config.js
+
+```
+
+## Credits
+
+- Images from [Freepik](https://www.freepik.com/)
+
+## License
+
+This project is open-source and free to use for educational or personal purposes. Fork, clone, and customize freely.
